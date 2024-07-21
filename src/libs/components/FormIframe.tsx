@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Center, Loader } from '@mantine/core';
 import { gforms } from '@/config/gforms';
 
@@ -9,6 +9,12 @@ type Props = {
 
 export default function FormIframe({ id, className = '' }: Props) {
 	const [loading, setLoading] = useState(true);
+
+	useEffect(() => {
+		if (id) {
+			setLoading(true);
+		}
+	}, [id]);
 
 	return (
 		<>
