@@ -1,0 +1,26 @@
+.site {
+	@apply w-full min-h-screen pt-[6vh] pb-5;
+	@apply flex justify-center;
+	@apply bg-gray-100;
+}
+
+.inner_site {
+	@apply container;
+}
+
+.form_choose {
+	@apply w-full p-5;
+	@apply bg-white;
+	@apply rounded-md;
+}
+
+.gform {
+	@apply w-full min-h-screen py-5;
+	@apply bg-white;
+	@apply rounded-md;
+	flex: 1 0 auto;
+
+	iframe {
+		@apply w-full min-h-full;
+	}
+}
