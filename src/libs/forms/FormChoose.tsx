@@ -41,15 +41,15 @@ const dataChooseDay = [
 
 const dataChooseSession = [
 	{
-		label: 'Morning',
+		label: 'Pagi',
 		value: '1',
 	},
 	{
-		label: 'Afternoon',
+		label: 'Siang',
 		value: '2',
 	},
 	{
-		label: 'Evening',
+		label: 'Malam',
 		value: '3',
 	},
 ];
@@ -79,12 +79,12 @@ export default function FormChoose({ className, onSubmit }: Props) {
 		>
 			<SimpleGrid cols={{ base: 1, sm: 2 }}>
 				<Select
-					label='Day'
+					label='Hari'
 					data={dataChooseDay}
 					{...form.getInputProps('day')}
 				/>
 				<Select
-					label='Session'
+					label='Sesi'
 					data={dataChooseSession}
 					{...form.getInputProps('session')}
 				/>
@@ -95,7 +95,7 @@ export default function FormChoose({ className, onSubmit }: Props) {
 					size='sm'
 					rightSection={<TbFileSearch />}
 				>
-					Search Form
+					Temukan Form
 				</Button>
 			</Center>
 		</form>
