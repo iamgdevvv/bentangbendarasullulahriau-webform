@@ -3,7 +3,7 @@ import { Center, Loader } from '@mantine/core';
 import { gforms } from '@/config/gforms';
 
 type Props = {
-	id: keyof typeof gforms;
+	id: string;
 	className?: string;
 };
 
@@ -24,7 +24,7 @@ export default function FormIframe({ id, className = '' }: Props) {
 				</Center>
 			) : null}
 			<iframe
-				src={gforms[id]}
+				src={gforms[id as keyof typeof gforms]}
 				onLoad={() => {
 					setLoading(false);
 				}}

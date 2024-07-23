@@ -6,31 +6,51 @@ import { TbFileSearch } from 'react-icons/tb';
 
 const dataChooseDay = [
 	{
-		label: 'Friday',
-		value: 'friday',
+		label: '10 Agustus',
+		value: '1',
 	},
 	{
-		label: 'Saturday',
-		value: 'saturday',
+		label: '11 Agustus',
+		value: '2',
 	},
 	{
-		label: 'Sunday',
-		value: 'sunday',
+		label: '12 Agustus',
+		value: '3',
+	},
+	{
+		label: '13 Agustus',
+		value: '4',
+	},
+	{
+		label: '14 Agustus',
+		value: '5',
+	},
+	{
+		label: '15 Agustus',
+		value: '6',
+	},
+	{
+		label: '16 Agustus',
+		value: '7',
+	},
+	{
+		label: '17 Agustus',
+		value: '8',
 	},
 ];
 
 const dataChooseSession = [
 	{
 		label: 'Morning',
-		value: 'morning',
+		value: '1',
 	},
 	{
 		label: 'Afternoon',
-		value: 'afternoon',
+		value: '2',
 	},
 	{
 		label: 'Evening',
-		value: 'evening',
+		value: '3',
 	},
 ];
 

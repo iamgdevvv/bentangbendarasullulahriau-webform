@@ -1,8 +1,52 @@
 const gforms = {
 	day1_sess1:
-		'https://docs.google.com/forms/d/e/1FAIpQLSfNqYP3vkuinW3hFnPdDStb3whsLIa8VjywIsZ6rbzkmZ-29Q/viewform?embedded=true',
+		'https://docs.google.com/forms/d/e/1FAIpQLSfIb2CH7WsSsME7U5u9ONpKjyvS7em5u5cLYM8yokaoyfvnqw/viewform?embedded=true',
 	day1_sess2:
-		'https://docs.google.com/forms/d/e/1FAIpQLScV-KuSWx3ZU-M0KFALIFp1cBD_-mK_56-x4AbdWBgtAlQ2sQ/viewform?embedded=true',
+		'https://docs.google.com/forms/d/e/1FAIpQLSceW-Lafj6-5fwk_MTwNPCrIiPlM4zxgTAptg7csIs8mO30vw/viewform?embedded=true',
+	day1_sess3:
+		'https://docs.google.com/forms/d/e/1FAIpQLSd88X5ym0vGDzkVRHCmCu_O_k4f-Ps0IqdZdq9RORBGcHbV2w/viewform?embedded=true',
+	day2_sess1:
+		'https://docs.google.com/forms/d/e/1FAIpQLSf621r5lHSPYHgR3B3Pe55WdqkVVh1ZoNZyCSJu4P5XIWpnDw/viewform?embedded=true',
+	day2_sess2:
+		'https://docs.google.com/forms/d/e/1FAIpQLSdDNp5QGW4k1TuI7TSeroy97yGFlTeizqGfzYqbYkAV37rJrg/viewform?embedded=true',
+	day2_sess3:
+		'https://docs.google.com/forms/d/e/1FAIpQLSetj6LIa-87Oa92p2t250-IzrMOP9K-Ne18TlFH5eADAyVv1g/viewform?embedded=true',
+	day3_sess1:
+		'https://docs.google.com/forms/d/e/1FAIpQLSfCODluHklgKBbbtNgLBELwSmbxVCaxr5zVcnJgQx9YYbhYxQ/viewform?embedded=true',
+	day3_sess2:
+		'https://docs.google.com/forms/d/e/1FAIpQLSfhIEAjLvtx7JtlDI4YJHgkoD_ZZZMnsHMn_Q9dXvAuB5THPw/viewform?embedded=true',
+	day3_sess3:
+		'https://docs.google.com/forms/d/e/1FAIpQLScP2--Ub4zYEqcptXkThFkkdvgSMzOzKFLQOSPkrFcdX36IgA/viewform?embedded=true',
+	day4_sess1:
+		'https://docs.google.com/forms/d/e/1FAIpQLSckZduwTQoqAyZmijzJwAy1siEijUODxZoBesiYr1-51SoczQ/viewform?embedded=true',
+	day4_sess2:
+		'https://docs.google.com/forms/d/e/1FAIpQLSfnoeVnx0jiV2MrL83nbv9x6bP5ZNLQd0WlQYSrD9kX-_t-4A/viewform?embedded=true',
+	day4_sess3:
+		'https://docs.google.com/forms/d/e/1FAIpQLScxrT025ih0XcDCvPmU18tkQAG3MVHtXaK0Li0UiW0KrIYWVw/viewform?embedded=true',
+	day5_sess1:
+		'https://docs.google.com/forms/d/e/1FAIpQLScpoClNqRdk9o-QxGN9aiE1vxRGh8UjhX_rM81MlWT3iUejbA/viewform?embedded=true',
+	day5_sess2:
+		'https://docs.google.com/forms/d/e/1FAIpQLSdzlL5uVnTjdI2Qcjp0YJPLJIdFC-qftmhapGkk36oSbjJiiQ/viewform?embedded=true',
+	day5_sess3:
+		'https://docs.google.com/forms/d/e/1FAIpQLSdD4iFTkFpT_DVBFh5V70iOKKQoKYk3qW9dWTYciXMpLAopkQ/viewform?embedded=true',
+	day6_sess1:
+		'https://docs.google.com/forms/d/e/1FAIpQLScKnQliABqNI4En4zR6KZAl8My4loE2MDb_wSHuIwusSJ11rg/viewform?embedded=true',
+	day6_sess2:
+		'https://docs.google.com/forms/d/e/1FAIpQLSf6iFk0HYwsE3O-mUCYON6dQM0YVm37JAkFs5hfzftW-sosng/viewform?embedded=true',
+	day6_sess3:
+		'https://docs.google.com/forms/d/e/1FAIpQLSdcAzEb4iIPhsg_xSzrpTTf7okZ420afuM7mEtxc0tfRx5fsA/viewform?embedded=true',
+	day7_sess1:
+		'https://docs.google.com/forms/d/e/1FAIpQLSd6xxUtypbSbMpQQ9JxxMsQl0y4XE6sU4Zqy9Hcxcp528DM6w/viewform?embedded=true',
+	day7_sess2:
+		'https://docs.google.com/forms/d/e/1FAIpQLSdp56bwQZ8iXKgC40NkJvJuadYk8f140IN1wEgiRAtgac0wEQ/viewform?embedded=true',
+	day7_sess3:
+		'https://docs.google.com/forms/d/e/1FAIpQLSd9EFluFPUxnE-jmD03EiUAS7lHdv5J1oMwfjEI8zfuY7XYGg/viewform?embedded=true',
+	day8_sess1:
+		'https://docs.google.com/forms/d/e/1FAIpQLSfFi4oMtxyxiqMWeCXnwyFOZKaLRRrX_Umd1QfKaslNYrKVDQ/viewform?embedded=true',
+	day8_sess2:
+		'https://docs.google.com/forms/d/e/1FAIpQLScBeCVkbIne25TNaVC0-9V30bJhbbofz85y_k56vFcxJlm_Iw/viewform?embedded=true',
+	day8_sess3:
+		'https://docs.google.com/forms/d/e/1FAIpQLSf745Ye-86nzbTuT7soDTBxXX_AqrlR0Y1J9qpbq8wb3eBiYg/viewform?embedded=true',
 };
 
 export { gforms };
